@@ -453,6 +453,12 @@ div {
     transform: translateY(-10px) !important;
 }
 
+/* 카드 내 제목들의 가로 너비 부족으로 인한 강제 줄바꿈 및 겹침 방지 */
+.card-overlay .font-t-Futura-500-33 {
+    width: 372px !important;       /* 상세설명(372px)과 동일하게 제목 영역 넓힘 */
+    white-space: nowrap;          /* 제목이 강제로 줄바꿈되지 않도록 보장 */
+}
+
 /* Typography styles */
 
 .font-t-42dot-Sans-600-49 {
