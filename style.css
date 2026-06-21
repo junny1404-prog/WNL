@@ -13,6 +13,12 @@ body {
     color: #000000;
 }
 
+@media (max-width: 1920px) {
+    body {
+        zoom: calc(100vw / 1920);
+    }
+}
+
 /* Common Layout Containers */
 .main-layout {
     width: 100%;
@@ -105,9 +111,9 @@ body {
 .hero-bg-img {
     position: absolute;
     left: 69px;
-    top: 0;
+    top: 108px;
     width: 1737.7px;
-    height: 877.0px;
+    height: 770.0px;
     z-index: 1;
     object-fit: cover;
 }
@@ -1493,4 +1499,13 @@ body {
     width: 421.0px;
     height: 155.0px;
     opacity: 0.990;
+}
+
+.cutout-woman {
+    position: absolute;
+    left: 453.7px;
+    top: -33.9px;
+    width: 460.9px;
+    height: 981.2px;
+    pointer-events: none;
 }
