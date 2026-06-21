@@ -1494,6 +1494,7 @@ div {
     top: 104.0px;
     width: 134.0px;
     height: 127.0px;
+    object-fit: contain;
 }
 
 #el-5-142 {
@@ -1502,6 +1503,7 @@ div {
     top: 117.0px;
     width: 80.0px;
     height: 101.0px;
+    object-fit: contain;
 }
 
 #el-5-143 {
@@ -1510,6 +1512,7 @@ div {
     top: 95.0px;
     width: 287.0px;
     height: 161.0px;
+    object-fit: contain;
 }
 
 #el-5-144 {
