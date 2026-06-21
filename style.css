@@ -209,7 +209,7 @@ body {
 .timeline-scroll-section {
     position: relative;
     width: 100%;
-    height: 180vh;
+    height: 130vh;
 }
 
 .sticky-viewport {
@@ -545,7 +545,7 @@ body {
 #history-intro-block {
     height: 380px;
 }
-#history-bridge-block { height: 340px; }
+#history-bridge-block { height: 420px; }
 #history-2000s-block { height: 1260px; }
 #history-2010s-block { height: 820px; }
 #history-2020s-block { height: 836px; }
@@ -747,9 +747,9 @@ body {
 
 #el-5-47 {
     position: absolute;
-    left: 320.0px;
+    left: 235.0px;
     top: 61.6px;
-    width: 780.0px;
+    width: 950.0px;
     height: 236.0px;
     opacity: 0.990;
     color: rgb(0, 0, 0);
@@ -758,7 +758,7 @@ body {
 
 #el-5-48 {
     position: absolute;
-    left: 240.0px;
+    left: 180.0px;
     top: 32.7px;
     width: 52.0px;
     height: 118.0px;
@@ -769,7 +769,7 @@ body {
 
 #el-5-49 {
     position: absolute;
-    left: 1128.0px;
+    left: 1188.0px;
     top: 32.7px;
     width: 52.0px;
     height: 118.0px;
