@@ -13,6 +13,16 @@ body {
     color: #000000;
 }
 
+/* Global Typography & Word-wrap fixes */
+.text-content,
+.card-text,
+p, 
+span,
+div {
+    word-break: keep-all;          /* 단어가 도중에 끊겨 아래로 내려가지 않도록 차단 */
+    overflow-wrap: break-word;     /* 너무 긴 영문 등이 있을 때만 줄바꿈 허용 */
+}
+
 @media (max-width: 1920px) {
     body {
         zoom: calc(100vw / 1920);
@@ -719,8 +729,8 @@ body {
     position: absolute;
     left: 63.0px;
     top: 617.2px;
-    width: 253.0px;
-    height: 228.0px;
+    width: 350px;
+    height: auto;
     opacity: 0.990;
     color: rgb(0, 0, 0);
 }
