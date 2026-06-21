@@ -79,11 +79,11 @@ document.addEventListener('DOMContentLoaded', () => {
         
         // 가로 트랙이 왼쪽으로 충분히 당겨져서 2000년대 카드가 온전히 드러나도록 bounds 조정
         let tStart = 234 - L;
-        let tEnd = -480; 
+        let tEnd = -680; 
         
         if (W >= 1920) {
             tStart = 100;
-            tEnd = -350; 
+            tEnd = -480; 
         }
         
         if (currentScroll >= scrollStart && currentScroll <= scrollEnd) {
