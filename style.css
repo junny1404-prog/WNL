@@ -111,7 +111,7 @@ body {
 .hero-bg-img {
     position: absolute;
     left: 69px;
-    top: 108px;
+    top: 138px;
     width: 1737.7px;
     height: 770.0px;
     z-index: 1;
@@ -1504,7 +1504,7 @@ body {
 .cutout-woman {
     position: absolute;
     left: 453.7px;
-    top: -33.9px;
+    top: -3.9px;
     width: 460.9px;
     height: 981.2px;
     pointer-events: none;
