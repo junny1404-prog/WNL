@@ -1501,11 +1501,11 @@ body {
     opacity: 0.990;
 }
 
-.cutout-woman {
-    position: absolute;
-    left: 453.7px;
-    top: -3.9px;
-    width: 460.9px;
-    height: 981.2px;
-    pointer-events: none;
+#history-section .hero-bg-img {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    width: 2010px;
+    height: 878px;
+    object-fit: cover;
 }
