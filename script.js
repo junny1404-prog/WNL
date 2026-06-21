@@ -77,20 +77,19 @@ document.addEventListener('DOMContentLoaded', () => {
         const W = window.innerWidth;
         const L = Math.max(0, (W - 1420) / 2);
         
-        // Dynamic translation bounds based on screen width
+        // 가로 트랙이 왼쪽으로 충분히 당겨져서 2000년대 카드가 온전히 드러나도록 bounds 조정
         let tStart = 234 - L;
-        let tEnd = W - L - 1653;
+        let tEnd = -480; 
         
-        // If screen is wider than original Figma design width, keep original positions
         if (W >= 1920) {
-            tStart = 0;
-            tEnd = 0;
+            tStart = 100;
+            tEnd = -350; 
         }
         
         if (currentScroll >= scrollStart && currentScroll <= scrollEnd) {
             let progress = (currentScroll - scrollStart) / (sectionHeight - viewHeight);
             
-            // Reach end translation at 80% of scroll depth, hold for last 20%
+            // 80% 스크롤 시점에 슬라이드를 끝내고 20% 구간 동안 고정해서 관찰할 수 있도록 대기
             progress = Math.min(1.0, progress / 0.8);
             
             const tx = tStart + progress * (tEnd - tStart);
